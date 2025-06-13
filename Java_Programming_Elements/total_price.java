@@ -1,8 +1,8 @@
-package immersion;
+// package immersion;
 
 import java.util.Scanner;
 
-public class welcome {
+public class total_price {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int up = sc.nextInt();
