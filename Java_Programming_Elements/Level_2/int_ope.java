@@ -1,0 +1,19 @@
+package immersion;
+
+import java.util.Scanner;
+
+public class welcome {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+//		double d = sc.nextInt();
+//		double h = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		int o1 = a + b*c;
+		int o2 = a*b + c;
+		int o3 = c + a/b;
+		int o4 = a%b + c;
+		System.out.println("The results of Int Operations are " + o1 + " " + o2 + " " + o3 + " " + o4);
+	}
+}
